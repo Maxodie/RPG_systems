@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb9a4f4ff81765499b5340a1b1c0c62, type: 3}
+  m_Name: RustedDagger
+  m_EditorClassIdentifier: 
+  itemName: La dague
+  itemIcone: {fileID: 21300000, guid: e05c3f6a6507eae49860a6062c251917, type: 3}
+  itemObject: {fileID: 5257422612980244670, guid: e868228c60c20964b908cedfb4aef97f,
+    type: 3}
+  maxUseNumber: 100
+  isUnusable: 0
+  usingTime: 0
+  timeBeforeReuse: 0.25
+  dropedItemAtDestroy: {fileID: 0}
+  positionInHand: {x: 0.04, y: -0.03, z: 0.29}
+  rotationInHand: {x: 0.182, y: 61.033, z: 211.475}
+  isConsomable: 0
+  hungerRecup: 0
+  healthRecup: 0
+  thirstRecup: 0
+  weaponType: 2
+  attackDamage: 10
+  attackRange: 2
+  isArmor: 0
+  armor: 0
+  isCookable: 0
+  coockingTime: 10
+  isCombustible: 1
+  combustibleNumberOfTime: 2
+  itemCoockingResult: {fileID: 0}

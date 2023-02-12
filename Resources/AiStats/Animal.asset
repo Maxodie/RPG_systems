@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d79d9421baaa2a41ba9ccb3dcd21106, type: 3}
+  m_Name: Animal
+  m_EditorClassIdentifier: 
+  AIName: Lapin
+  maxLife: 25
+  vulnerableWeapon: 2
+  vulnerablepct: 10
+  isChasing: 0
+  isEscapeWheneHit: 1
+  escapeSpeedMultiplicator: 1.3
+  maxTimeToChangeDestination: 10
+  minTimeToChangeDestination: 5
+  maxDistanceAfterSpawnCanMove: 10
+  itemDropAtDeath: {fileID: 1254416705680592986, guid: 9fd57eeacdac3d744a49adc26c8c5a18,
+    type: 3}
+  minCoinWonAtDeath: 1
+  maxCoinWinAtDeath: 2
+  isWinSkill: 0
+  skillToAddAtDeath: 0
+  requireWeaponType: 0

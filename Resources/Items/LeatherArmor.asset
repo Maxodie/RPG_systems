@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb9a4f4ff81765499b5340a1b1c0c62, type: 3}
+  m_Name: LeatherArmor
+  m_EditorClassIdentifier: 
+  itemName: L'armure en cuir
+  itemIcone: {fileID: 21300000, guid: 0538ef43ccba0b346aee9525329df33d, type: 3}
+  itemObject: {fileID: 8334577530262310720, guid: 4c2e0f87f0553294c966e23260b64ef3,
+    type: 3}
+  maxUseNumber: 10
+  isUnusable: 0
+  usingTime: 0.5
+  timeBeforeReuse: 0.5
+  dropedItemAtDestroy: {fileID: 0}
+  positionInHand: {x: 0.03999986, y: -0.405313, z: 0.03869355}
+  rotationInHand: {x: -11.392, y: 6.232, z: -14.763}
+  isConsomable: 0
+  hungerRecup: 0
+  healthRecup: 0
+  thirstRecup: 0
+  isWeapon: 0
+  isSword: 0
+  isDagger: 0
+  attackDamage: 5
+  attackRange: 2
+  isArmor: 1
+  armor: 20
+  isCookable: 0
+  coockingTime: 10
+  isCombustible: 1
+  combustibleNumberOfTime: 3
+  itemCoockingResult: {fileID: 0}

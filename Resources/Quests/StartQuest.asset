@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6020246eaf3275e4abf9ddc31836f11a, type: 3}
+  m_Name: StartQuest
+  m_EditorClassIdentifier: 
+  questIsStart: 0
+  questSteps:
+  - isStart: 1
+    canFinish: 1
+    isFinish: 1
+    pnjStartPhrase: "Salut \xE9tranger! Tu n'as pas envie d'aller par l\xE0 je te
+      l'assure c'est trop dangereux. Enfin... sauf si tu peux te battre ce qui n'est
+      bien s\xFBr pas dans les qualit\xE9s des habitants du village. Va nous d\xE9barrasser
+      de ces monstres et tu auras notre reconnaissance \xE9ternelle"
+    pnjInQuestPhrase: Du coup? c'est bon? Nan?
+    pnjEndPhrase: "Comment pouvais tu rater tu aurais vraiment \xE9t\xE9 diffam\xE9
+      au village haha... mais bravo!"
+    numberEnemyToKill: 3
+    maxNumberEnemyToKill: 3
+    enemyToKillPrefab: {fileID: 8551986020180688619, guid: 1fda3210fa41c3146b72c6bd2e38f588,
+      type: 3}
+    isWinCoin: 0
+    coinWon: 150
+    itemWon: {fileID: 8334577530262310720, guid: 4c2e0f87f0553294c966e23260b64ef3,
+      type: 3}
+    isWinSkill: 0
+    skillWon: 0
+  - isStart: 1
+    canFinish: 1
+    isFinish: 0
+    pnjStartPhrase: "Apr\xE8s \xE7a tu pourrais bien faire un peu de m\xE9nage vers
+      les collines ils sont revenue en force... merci \xE9tranger!"
+    pnjInQuestPhrase: Moi qui te croyais capable de tout... tu abandonnes? :)
+    pnjEndPhrase: "Je n'ai jamais dout\xE9 de toi haha..."
+    numberEnemyToKill: 1
+    maxNumberEnemyToKill: 1
+    enemyToKillPrefab: {fileID: 8551986020180688619, guid: 1fda3210fa41c3146b72c6bd2e38f588,
+      type: 3}
+    isWinCoin: 0
+    coinWon: 0
+    itemWon: {fileID: 0}
+    isWinSkill: 1
+    skillWon: 3

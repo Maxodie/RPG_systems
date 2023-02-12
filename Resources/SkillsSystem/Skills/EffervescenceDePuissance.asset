@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb90c54e527aa004782420e736937176, type: 3}
+  m_Name: EffervescenceDePuissance
+  m_EditorClassIdentifier: 
+  skillCategorieType: 0
+  skillType: 1
+  skillName: Effervescence de puissance
+  isActiveSkill: 1
+  canUse: 1
+  activeSprite: {fileID: 21300000, guid: 0538ef43ccba0b346aee9525329df33d, type: 3}
+  startSkillEffects: {fileID: 4483330721385355309, guid: 0f963ff914b663648bbb6112ca3ac834,
+    type: 3}
+  duringSkillEffects: {fileID: 7242299213544893125, guid: 9a0547b81fa45ed48b3598a470d9fb4b,
+    type: 3}
+  activeTimeOfActiveSkill: 2
+  manaCost: 20
+  isPermanentStatsSkill: 0
+  duringActiveTime: 15
+  reloadActiveSkill: 10
+  isInstantiateSkill: 0
+  instantiateSkillPrefab: {fileID: 0}
+  instantiateSkillSpeed: 0
+  instantiateSkillDamage: 0
+  instantiateSkillDestroyTime: 0
+  isUpgradingDestroyTime: 0
+  isChangeRotation: 1
+  isFollowPlayer: 0
+  skillLvl: 0
+  currentXp: 0
+  reachXp: 100
+  addXpPerUsing: 10
+  additionalUpradeStats: 1
+  swordDamage: 0
+  increasedPlayerLife: 0
+  canIncreaseUpperThanCurrentHealth: 0
+  increasePlayerDodge: 0
+  increasePlayerStrength: 20
+  increasePlayerSpeed: 0

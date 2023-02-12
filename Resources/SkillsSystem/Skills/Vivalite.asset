@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb90c54e527aa004782420e736937176, type: 3}
+  m_Name: Vivalite
+  m_EditorClassIdentifier: 
+  skillCategorieType: 1
+  skillType: 5
+  skillName: "Vitalit\xE9"
+  isActiveSkill: 0
+  canUse: 1
+  activeSprite: {fileID: 0}
+  startSkillEffects: {fileID: 0}
+  duringSkillEffects: {fileID: 0}
+  activeTimeOfActiveSkill: 0
+  isPermanentStatsSkill: 0
+  duringActiveTime: 0
+  reloadActiveSkill: 0
+  isInstantiateSkill: 0
+  instantiateSkillPrefab: {fileID: 0}
+  instantiateSkillSpeed: 0
+  instantiateSkillDamage: 0
+  instantiateSkillDestroyTime: 0
+  isUpgradingDestroyTime: 0
+  isChangeRotation: 1
+  isFollowPlayer: 0
+  skillLvl: 0
+  currentXp: 0
+  reachXp: 100
+  addXpPerUsing: 10
+  additionalUpradeStats: 1
+  swordDamage: 0
+  increasedPlayerLife: 10
+  canIncreaseUpperThanCurrentHealth: 1
+  increasePlayerDodge: 0
+  increasePlayerStrength: 0
+  increasePlayerSpeed: 0

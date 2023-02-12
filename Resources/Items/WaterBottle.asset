@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb9a4f4ff81765499b5340a1b1c0c62, type: 3}
+  m_Name: WaterBottle
+  m_EditorClassIdentifier: 
+  itemName: La bouteille d'eau
+  itemIcone: {fileID: 21300000, guid: 4571b5e1b11edbb429febf015dc24ccd, type: 3}
+  itemObject: {fileID: 835744397930724263, guid: 91189bc7cbe744c4c9dd8ba8236f6b81,
+    type: 3}
+  isStackable: 1
+  maxUseNumber: 2
+  isUnusable: 0
+  usingTime: 2
+  timeBeforeReuse: 0.5
+  dropedItemAtDestroy: {fileID: 11400000, guid: 4ea61db631d8dd74e9561cdcfd0d687d,
+    type: 2}
+  positionInHand: {x: 0, y: -0.154, z: 0.043}
+  rotationInHand: {x: -21.08, y: 0, z: 0}
+  isConsomable: 1
+  hungerRecup: -5
+  healthRecup: 0
+  weaponType: 0
+  attackDamage: 5
+  attackRange: 2
+  isArmor: 0
+  armor: 0
+  isCookable: 1
+  coockingTime: 5
+  isCombustible: 0
+  combustibleNumberOfTime: 0
+  itemCoockingResult: {fileID: 11400000, guid: 8590b262702d0bd46a389e285bdcefa7, type: 2}

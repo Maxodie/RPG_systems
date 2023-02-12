@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6020246eaf3275e4abf9ddc31836f11a, type: 3}
+  m_Name: QuestTest
+  m_EditorClassIdentifier: 
+  questIsStart: 0
+  questSteps:
+  - isStart: 0
+    canFinish: 0
+    isFinish: 0
+    pnjStartPhrase: "Salut \xE9tranger! Tu pourrais tuer les monstres autour du village
+      pour que MOI (et les villageois) puissions dormir sur nos deux oreilles?"
+    pnjInQuestPhrase: Du coup? tu n'as pas fini? Qu'est-ce que tu fais?
+    pnjEndPhrase: Je n'en attendais pas moins!
+    numberEnemyToKill: 3
+    maxNumberEnemyToKill: 3
+    enemyToKillPrefab: {fileID: 8551986020180688619, guid: 1fda3210fa41c3146b72c6bd2e38f588,
+      type: 3}
+    isWinCoin: 1
+    coinWon: 151
+    itemWon: {fileID: 5257422612980244670, guid: e868228c60c20964b908cedfb4aef97f,
+      type: 3}
+    isWinSkill: 0
+    skillWon: 3
+  - isStart: 0
+    canFinish: 0
+    isFinish: 0
+    pnjStartPhrase: "Apr\xE8s ton exploit les annimeaux sauvages sont revenues, j'ai
+      la dalle tu pourrais aller en tuer quelques-uns pour que je... nous puissions
+      faire un grand barbecue?"
+    pnjInQuestPhrase: Vite j'ai la dalle
+    pnjEndPhrase: Merci! Je ne t'inviterais pas mais tu as ma reconnaissance!
+    numberEnemyToKill: 1
+    maxNumberEnemyToKill: 1
+    enemyToKillPrefab: {fileID: 5297716176119668936, guid: f5c9eabe337794649a9517ea475f1c21,
+      type: 3}
+    isWinCoin: 0
+    coinWon: 0
+    itemWon: {fileID: 1254416705680592986, guid: 9fd57eeacdac3d744a49adc26c8c5a18,
+      type: 3}
+    isWinSkill: 1
+    skillWon: 5

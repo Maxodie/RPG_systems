@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a563d4c79e186264dbed26e17a1b6d21, type: 3}
+  m_Name: Epe
+  m_EditorClassIdentifier: 
+  craftedItem: {fileID: 11400000, guid: f085e918787ee8e468da623c86d3b715, type: 2}
+  isBuyable: 0
+  shopWorkshopItemUI: {fileID: 0}
+  isCraftable: 1
+  categorieLvlRequired: 0
+  categoriesType: 0
+  workshopItemUI: {fileID: 0}
+  requiredItems:
+  - {fileID: 11400000, guid: 1219b819414697148bb5804d4a2ca4a6, type: 2}
+  requireItemNumbers: 02000000
